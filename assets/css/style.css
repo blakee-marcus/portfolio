@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #1e1f23;
+    --secondary-color: #47494d;
+    --tetiary-color: #fbc2eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: var(--secondary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-attachment: fixed;
+    z-index: 9999;
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 3vw;
+    background-color: var(--tetiary-color);
+    padding: 0 0 0 15vw;
+    width: 35%;
+    text-align: right;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 5px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    border-bottom: solid 3px var(--tetiary-color);
+    color: var(--tetiary-color);
+    margin: 0 5px;
+}
+
+section {
+    padding: 60px;
+}
+
+h3 {
+    margin: 0 ;
+    font-size: large;
+}
+
+.hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: flex-start;
+    
+}
