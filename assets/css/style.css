@@ -37,8 +37,8 @@ header h1 {
     font-weight: bold;
     font-size: 3vw;
     background-color: var(--tetiary-color);
-    padding: 0 0 0 15vw;
-    width: 35%;
+    padding: 0 0 0 5vw;
+    width: 25%;
     text-align: right;
     display: inline;
 }
@@ -83,6 +83,161 @@ h3 {
     background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center;
-    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: right;
+    background-color: var(--tetiary-color);
+    width: 10%;
+    text-align: center;
+
+}
+
+
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.about-me-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0;
+}
+
+
+.works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+
+.work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0;
     
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    border: solid 3px var(--tetiary-color);
+}
+
+
+.work-title1 {
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--tetiary-color);
+    position: absolute;
+    padding: 5px;
+    margin: 100px 275px 0px 0px ;
+}
+.work-title2 {
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--tetiary-color);
+    position: absolute;
+    padding: 5px;
+    margin: 100px 300px 0px 0px ;
+}
+.work-title3 {
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--tetiary-color);
+    position: absolute;
+    padding: 5px;
+    margin: 100px 210px 0px 0px ;
+}
+.work-title4 {
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--tetiary-color);
+    position: absolute;
+    padding: 5px;
+    margin: 100px 265px 0px 0px ;
+}
+.work-title5 {
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--tetiary-color);
+    position: absolute;
+    padding: 5px;
+    margin: 100px 280px 0px 0px ;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0;
+}
+
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact ul li a {
+    padding: 5px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    border-bottom: solid 3px var(--tetiary-color);
+    color: var(--secondary-color);
+    margin: 0 5px;
+    text-decoration: none;
+}
+   
+/* Utilities */
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    width: 15%;
+    border-right: solid 3px var(--tetiary-color);
+    font-size: 2em;
+    padding-right: 12px;
 }
